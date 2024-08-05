@@ -1,0 +1,237 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+}
+
+#logo img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 100px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: #3da9d4;
+}
+
+#SignButt {
+    background-color: #00AEEF;
+    color: #000000;
+    border: none;
+    padding: 4px 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#SignButt:hover {
+    color: #000000;
+}
+
+#cover {
+    margin: 0;
+    padding: 0;
+    background-color: #1E73BE;
+    display: flex;
+}
+
+#cover img {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    object-fit: contain;
+}
+
+#cover-text {
+    margin: 40px;
+    color: #ffffff;
+
+}
+
+#cover-text button {
+    border: white solid 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#sign-up-cover {
+    background-color: #ffffff8e;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+#sign-up-cover:hover {
+    background-color: #ffffff00;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+#demo-cover {
+    background-color: #ffffff00;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+#demo-cover:hover {
+    background-color: #000000;
+    transition-duration: 0.5s;
+}
+
+#features {
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 0px;
+}
+
+#heading {
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+#feature-1 {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+#feature-1-text {
+    margin-left: 15px;
+}
+
+#feature-1-text h3 {
+    color: #00A3FF;
+}
+
+#feature-1-img img {
+    width: 500px;
+    height: auto;
+}
+
+#feature-2 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEF9FF;
+    display: flex;
+}
+
+#feature-2-text {
+    margin-left: 30px;
+}
+
+#feature-2-text h3 {
+    color: #00A3FF;
+}
+
+#feature-3 {
+    display: flex;
+}
+
+#feature-3-text {
+    margin-left: 15px;
+}
+
+#feature-3-text h3 {
+    color: #00A3FF;
+}
+
+#feature-4 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEF9FF;
+}
+
+#feature-4-flex {
+    display: flex;
+}
+
+#feature-4-text {
+    margin-left: 15px;
+}
+
+#feature-4-text h3 {
+    color: #00A3FF;
+}
+
+#read-button {
+    text-align: center;
+    padding: 30px;
+}
+
+#read-button button {
+    background-color: #00A3FF;
+    color: white;
+    border: #00A3FF 2px solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#read-button button:hover {
+    color: #00A3FF;
+    background-color: #ffffff;
+    border: #00A3FF 2px solid;
+    transition: 0.5s;
+}
+
+#sign-up {
+    background-color: #0084E4;
+    margin: 0px;
+    padding: 0px;
+}
+
+#sign-up-text {
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+#sign-up-button {
+    text-align: center;
+    padding: 20px;
+}
+
+#sign-up-button button {
+    background-color: white;
+    color: #000000;
+    border: #ffffff 2px solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
