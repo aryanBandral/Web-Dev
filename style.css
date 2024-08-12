@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
 }
 
 #navbar {
@@ -31,28 +32,29 @@ body {
 }
 
 #navbar li a {
-    display: block;
+    display: inline;
     color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    line-height: normal;
+    vertical-align: middle;
 }
 
 #navbar li a:hover {
     color: #3da9d4;
 }
 
-#SignButt {
+#navbar ul li a#SignButt {
+    display: inline-block;
     background-color: #00AEEF;
-    color: #000000;
-    border: none;
+    color: #ffffff; 
     padding: 4px 6px;
+    border-radius: 5px; 
     text-decoration: none;
     cursor: pointer;
-}
-
-#SignButt:hover {
-    color: #000000;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 
 #cover {
@@ -60,17 +62,19 @@ body {
     padding: 0;
     background-color: #1E73BE;
     display: flex;
+    align-items: center;
 }
 
 #cover img {
-    width: 100%;
+    width:100%;
     height: auto;
-    margin: 20px;
+    margin-top: 5rem;
     object-fit: contain;
+    margin-left: 20rem;
 }
 
 #cover-text {
-    margin: 40px;
+    margin-left: 20rem;
     color: #ffffff;
 
 }
@@ -88,7 +92,6 @@ body {
     background-color: #ffffff8e;
     justify-content: center;
     align-items: center;
-    transition-duration: 0.5s;
 }
 
 #sign-up-cover:hover {
@@ -102,12 +105,42 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
-    transition-duration: 0.5s;
 }
 
 #demo-cover:hover {
     background-color: #000000;
     transition-duration: 0.5s;
+}
+
+#carousel {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#carousel-container {
+    display: flex;
+    width: calc(200%);
+    animation: scroll 30s linear infinite;
+}
+
+#carousel-container img {
+    width: calc(150% / 14); 
+    height: auto;
+    margin-left: 50px;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 #features {
@@ -126,6 +159,8 @@ body {
     display: flex;
     margin: 0px;
     padding: 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 #feature-1-text {
@@ -146,6 +181,8 @@ body {
     padding: 0px;
     background-color: #EEF9FF;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #feature-2-text {
@@ -158,6 +195,8 @@ body {
 
 #feature-3 {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #feature-3-text {
@@ -176,6 +215,8 @@ body {
 
 #feature-4-flex {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #feature-4-text {
