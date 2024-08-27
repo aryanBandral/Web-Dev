@@ -1,0 +1,86 @@
+.cards-carousel-section .card {
+    margin-bottom: 30px;
+    border : none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 0%;
+    background: none;
+    color: grey;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    border: solid grey;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.carousel-control-prev-icon::after {
+    transform: rotate(135deg); 
+}
+
+.carousel-control-next-icon::after {
+    transform: rotate(-45deg); 
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    color: darkgrey;
+}
+
+/* .carousel-item {
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    color: grey;
+}
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    border: solid grey;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+.carousel-control-prev-icon::after {
+    transform: rotate(135deg); 
+}
+.carousel-control-next-icon::after {
+    transform: rotate(-45deg); 
+}
+.carousel-inner h1{
+    text-align:center;
+} */
